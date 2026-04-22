@@ -1,0 +1,586 @@
+{
+  "metadata": {
+    "timestamp": "20260115_161349",
+    "sizes": [10000,100000], 
+    "threads": [1,2,4,8,16,32], 
+    "iterations": 2
+  },
+  "results": [
+    {
+      "size": 10000,
+      "threads": 1,
+      "iteration": 1,
+      "implementation": "pthread",
+      "create_time": 0.009974,
+      "serial_time": 0.642044,
+      "parallel_time": 0.840667,
+      "speedup": 0.763732,
+      "correct": true
+    }
+,
+    {
+      "size": 10000,
+      "threads": 1,
+      "iteration": 1,
+      "implementation": "openmp",
+      "create_time": 0.103811,
+      "serial_time": 0.574461,
+      "parallel_time": 0.536438,
+      "speedup": 1.070881,
+      "correct": true
+    }
+,
+    {
+      "size": 10000,
+      "threads": 1,
+      "iteration": 2,
+      "implementation": "pthread",
+      "create_time": 0.009215,
+      "serial_time": 0.660969,
+      "parallel_time": 0.798392,
+      "speedup": 0.827875,
+      "correct": true
+    }
+,
+    {
+      "size": 10000,
+      "threads": 1,
+      "iteration": 2,
+      "implementation": "openmp",
+      "create_time": 0.090196,
+      "serial_time": 0.624154,
+      "parallel_time": 0.556923,
+      "speedup": 1.120719,
+      "correct": true
+    }
+,
+    {
+      "size": 10000,
+      "threads": 2,
+      "iteration": 1,
+      "implementation": "pthread",
+      "create_time": 0.007526,
+      "serial_time": 0.643210,
+      "parallel_time": 0.449559,
+      "speedup": 1.430758,
+      "correct": true
+    }
+,
+    {
+      "size": 10000,
+      "threads": 2,
+      "iteration": 1,
+      "implementation": "openmp",
+      "create_time": 0.077869,
+      "serial_time": 0.671091,
+      "parallel_time": 0.316111,
+      "speedup": 2.122960,
+      "correct": true
+    }
+,
+    {
+      "size": 10000,
+      "threads": 2,
+      "iteration": 2,
+      "implementation": "pthread",
+      "create_time": 0.006349,
+      "serial_time": 0.650663,
+      "parallel_time": 0.443796,
+      "speedup": 1.466131,
+      "correct": true
+    }
+,
+    {
+      "size": 10000,
+      "threads": 2,
+      "iteration": 2,
+      "implementation": "openmp",
+      "create_time": 0.108455,
+      "serial_time": 0.543172,
+      "parallel_time": 0.298300,
+      "speedup": 1.820892,
+      "correct": true
+    }
+,
+    {
+      "size": 10000,
+      "threads": 4,
+      "iteration": 1,
+      "implementation": "pthread",
+      "create_time": 0.007063,
+      "serial_time": 0.633613,
+      "parallel_time": 0.249482,
+      "speedup": 2.539714,
+      "correct": true
+    }
+,
+    {
+      "size": 10000,
+      "threads": 4,
+      "iteration": 1,
+      "implementation": "openmp",
+      "create_time": 0.080824,
+      "serial_time": 0.570380,
+      "parallel_time": 0.269678,
+      "speedup": 2.115041,
+      "correct": true
+    }
+,
+    {
+      "size": 10000,
+      "threads": 4,
+      "iteration": 2,
+      "implementation": "pthread",
+      "create_time": 0.009164,
+      "serial_time": 0.653887,
+      "parallel_time": 0.275400,
+      "speedup": 2.374317,
+      "correct": true
+    }
+,
+    {
+      "size": 10000,
+      "threads": 4,
+      "iteration": 2,
+      "implementation": "openmp",
+      "create_time": 0.091708,
+      "serial_time": 0.605407,
+      "parallel_time": 0.206586,
+      "speedup": 2.930533,
+      "correct": true
+    }
+,
+    {
+      "size": 10000,
+      "threads": 8,
+      "iteration": 1,
+      "implementation": "pthread",
+      "create_time": 0.007917,
+      "serial_time": 0.637908,
+      "parallel_time": 0.232962,
+      "speedup": 2.738249,
+      "correct": true
+    }
+,
+    {
+      "size": 10000,
+      "threads": 8,
+      "iteration": 1,
+      "implementation": "openmp",
+      "create_time": 0.084886,
+      "serial_time": 0.604044,
+      "parallel_time": 0.175869,
+      "speedup": 3.434625,
+      "correct": true
+    }
+,
+    {
+      "size": 10000,
+      "threads": 8,
+      "iteration": 2,
+      "implementation": "pthread",
+      "create_time": 0.008587,
+      "serial_time": 0.646463,
+      "parallel_time": 0.312857,
+      "speedup": 2.066321,
+      "correct": true
+    }
+,
+    {
+      "size": 10000,
+      "threads": 8,
+      "iteration": 2,
+      "implementation": "openmp",
+      "create_time": 0.076983,
+      "serial_time": 0.615089,
+      "parallel_time": 0.171849,
+      "speedup": 3.579241,
+      "correct": true
+    }
+,
+    {
+      "size": 10000,
+      "threads": 16,
+      "iteration": 1,
+      "implementation": "pthread",
+      "create_time": 0.006542,
+      "serial_time": 0.642805,
+      "parallel_time": 0.267716,
+      "speedup": 2.401071,
+      "correct": true
+    }
+,
+    {
+      "size": 10000,
+      "threads": 16,
+      "iteration": 1,
+      "implementation": "openmp",
+      "create_time": 0.079946,
+      "serial_time": 0.587991,
+      "parallel_time": 0.216004,
+      "speedup": 2.722130,
+      "correct": true
+    }
+,
+    {
+      "size": 10000,
+      "threads": 16,
+      "iteration": 2,
+      "implementation": "pthread",
+      "create_time": 0.003984,
+      "serial_time": 0.644590,
+      "parallel_time": 0.229110,
+      "speedup": 2.813452,
+      "correct": true
+    }
+,
+    {
+      "size": 10000,
+      "threads": 16,
+      "iteration": 2,
+      "implementation": "openmp",
+      "create_time": 0.076847,
+      "serial_time": 0.570182,
+      "parallel_time": 0.217733,
+      "speedup": 2.618721,
+      "correct": true
+    }
+,
+    {
+      "size": 10000,
+      "threads": 32,
+      "iteration": 1,
+      "implementation": "pthread",
+      "create_time": 0.007881,
+      "serial_time": 0.698838,
+      "parallel_time": 0.233123,
+      "speedup": 2.997722,
+      "correct": true
+    }
+,
+    {
+      "size": 10000,
+      "threads": 32,
+      "iteration": 1,
+      "implementation": "openmp",
+      "create_time": 0.088786,
+      "serial_time": 0.543591,
+      "parallel_time": 0.276681,
+      "speedup": 1.964685,
+      "correct": true
+    }
+,
+    {
+      "size": 10000,
+      "threads": 32,
+      "iteration": 2,
+      "implementation": "pthread",
+      "create_time": 0.012676,
+      "serial_time": 0.688511,
+      "parallel_time": 0.247739,
+      "speedup": 2.779179,
+      "correct": true
+    }
+,
+    {
+      "size": 10000,
+      "threads": 32,
+      "iteration": 2,
+      "implementation": "openmp",
+      "create_time": 0.077718,
+      "serial_time": 0.549653,
+      "parallel_time": 0.298512,
+      "speedup": 1.841310,
+      "correct": true
+    }
+,
+    {
+      "size": 100000,
+      "threads": 1,
+      "iteration": 1,
+      "implementation": "pthread",
+      "create_time": 0.006200,
+      "serial_time": 61.185200,
+      "parallel_time": 77.258746,
+      "speedup": 0.791952,
+      "correct": true
+    }
+,
+    {
+      "size": 100000,
+      "threads": 1,
+      "iteration": 1,
+      "implementation": "openmp",
+      "create_time": 0.094293,
+      "serial_time": 51.983383,
+      "parallel_time": 51.930859,
+      "speedup": 1.001011,
+      "correct": true
+    }
+,
+    {
+      "size": 100000,
+      "threads": 1,
+      "iteration": 2,
+      "implementation": "pthread",
+      "create_time": 0.010680,
+      "serial_time": 61.285342,
+      "parallel_time": 76.504236,
+      "speedup": 0.801071,
+      "correct": true
+    }
+,
+    {
+      "size": 100000,
+      "threads": 1,
+      "iteration": 2,
+      "implementation": "openmp",
+      "create_time": 0.087350,
+      "serial_time": 51.928107,
+      "parallel_time": 53.274203,
+      "speedup": 0.974733,
+      "correct": true
+    }
+,
+    {
+      "size": 100000,
+      "threads": 2,
+      "iteration": 1,
+      "implementation": "pthread",
+      "create_time": 0.009922,
+      "serial_time": 62.039320,
+      "parallel_time": 42.977700,
+      "speedup": 1.443524,
+      "correct": true
+    }
+,
+    {
+      "size": 100000,
+      "threads": 2,
+      "iteration": 1,
+      "implementation": "openmp",
+      "create_time": 0.180488,
+      "serial_time": 53.335234,
+      "parallel_time": 29.006086,
+      "speedup": 1.838760,
+      "correct": true
+    }
+,
+    {
+      "size": 100000,
+      "threads": 2,
+      "iteration": 2,
+      "implementation": "pthread",
+      "create_time": 0.011962,
+      "serial_time": 62.508107,
+      "parallel_time": 46.784996,
+      "speedup": 1.336072,
+      "correct": true
+    }
+,
+    {
+      "size": 100000,
+      "threads": 2,
+      "iteration": 2,
+      "implementation": "openmp",
+      "create_time": 0.209870,
+      "serial_time": 53.886491,
+      "parallel_time": 29.839573,
+      "speedup": 1.805873,
+      "correct": true
+    }
+,
+    {
+      "size": 100000,
+      "threads": 4,
+      "iteration": 1,
+      "implementation": "pthread",
+      "create_time": 0.003124,
+      "serial_time": 62.042014,
+      "parallel_time": 34.207031,
+      "speedup": 1.813721,
+      "correct": true
+    }
+,
+    {
+      "size": 100000,
+      "threads": 4,
+      "iteration": 1,
+      "implementation": "openmp",
+      "create_time": 0.174297,
+      "serial_time": 55.077005,
+      "parallel_time": 21.709332,
+      "speedup": 2.537020,
+      "correct": true
+    }
+,
+    {
+      "size": 100000,
+      "threads": 4,
+      "iteration": 2,
+      "implementation": "pthread",
+      "create_time": 0.006520,
+      "serial_time": 62.026055,
+      "parallel_time": 24.360414,
+      "speedup": 2.546182,
+      "correct": true
+    }
+,
+    {
+      "size": 100000,
+      "threads": 4,
+      "iteration": 2,
+      "implementation": "openmp",
+      "create_time": 0.046077,
+      "serial_time": 53.792461,
+      "parallel_time": 20.005771,
+      "speedup": 2.688847,
+      "correct": true
+    }
+,
+    {
+      "size": 100000,
+      "threads": 8,
+      "iteration": 1,
+      "implementation": "pthread",
+      "create_time": 0.005269,
+      "serial_time": 62.442655,
+      "parallel_time": 24.385222,
+      "speedup": 2.560676,
+      "correct": true
+    }
+,
+    {
+      "size": 100000,
+      "threads": 8,
+      "iteration": 1,
+      "implementation": "openmp",
+      "create_time": 0.086238,
+      "serial_time": 52.644430,
+      "parallel_time": 25.011521,
+      "speedup": 2.104807,
+      "correct": true
+    }
+,
+    {
+      "size": 100000,
+      "threads": 8,
+      "iteration": 2,
+      "implementation": "pthread",
+      "create_time": 0.006608,
+      "serial_time": 61.767887,
+      "parallel_time": 27.643687,
+      "speedup": 2.234430,
+      "correct": true
+    }
+,
+    {
+      "size": 100000,
+      "threads": 8,
+      "iteration": 2,
+      "implementation": "openmp",
+      "create_time": 0.106189,
+      "serial_time": 53.453041,
+      "parallel_time": 16.368539,
+      "speedup": 3.265596,
+      "correct": true
+    }
+,
+    {
+      "size": 100000,
+      "threads": 16,
+      "iteration": 1,
+      "implementation": "pthread",
+      "create_time": 0.006347,
+      "serial_time": 63.167258,
+      "parallel_time": 26.744188,
+      "speedup": 2.361906,
+      "correct": true
+    }
+,
+    {
+      "size": 100000,
+      "threads": 16,
+      "iteration": 1,
+      "implementation": "openmp",
+      "create_time": 0.138301,
+      "serial_time": 54.097613,
+      "parallel_time": 23.306904,
+      "speedup": 2.321098,
+      "correct": true
+    }
+,
+    {
+      "size": 100000,
+      "threads": 16,
+      "iteration": 2,
+      "implementation": "pthread",
+      "create_time": 0.006958,
+      "serial_time": 62.222249,
+      "parallel_time": 31.200398,
+      "speedup": 1.994277,
+      "correct": true
+    }
+,
+    {
+      "size": 100000,
+      "threads": 16,
+      "iteration": 2,
+      "implementation": "openmp",
+      "create_time": 0.215724,
+      "serial_time": 55.760158,
+      "parallel_time": 17.439996,
+      "speedup": 3.197257,
+      "correct": true
+    }
+,
+    {
+      "size": 100000,
+      "threads": 32,
+      "iteration": 1,
+      "implementation": "pthread",
+      "create_time": 0.009778,
+      "serial_time": 65.765868,
+      "parallel_time": 75.906704,
+      "speedup": 0.866404,
+      "correct": true
+    }
+,
+    {
+      "size": 100000,
+      "threads": 32,
+      "iteration": 1,
+      "implementation": "openmp",
+      "create_time": 0.301203,
+      "serial_time": 59.319839,
+      "parallel_time": 35.409809,
+      "speedup": 1.675237,
+      "correct": true
+    }
+,
+    {
+      "size": 100000,
+      "threads": 32,
+      "iteration": 2,
+      "implementation": "pthread",
+      "create_time": 0.003325,
+      "serial_time": 71.872134,
+      "parallel_time": 122.241066,
+      "speedup": 0.587954,
+      "correct": true
+    }
+,
+    {
+      "size": 100000,
+      "threads": 32,
+      "iteration": 2,
+      "implementation": "openmp",
+      "create_time": 0.188443,
+      "serial_time": 68.283436,
+      "parallel_time": 53.018720,
+      "speedup": 1.287912,
+      "correct": true
+    }
+
+  ]
+}
